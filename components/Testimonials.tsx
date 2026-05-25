@@ -66,7 +66,7 @@ export default function Testimonials() {
             >
               <Quote size={36} className="text-primary/30 mx-auto mb-6" />
               <p className="text-xl text-text-main leading-relaxed mb-8 font-medium italic">
-                "{t.quote}"
+                &ldquo;{t.quote}&rdquo;
               </p>
               <div className="flex items-center justify-center gap-3">
                 <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold">
