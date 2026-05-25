@@ -9,8 +9,19 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary:        'var(--color-primary)',
+        background:     'var(--color-background)',
+        neutral:        'var(--color-neutral)',
+        'primary-dark': 'var(--color-primary-dark)',
+        'primary-light':'var(--color-primary-light)',
+        'bg-dark':      'var(--color-background-dark)',
+        'text-main':    'var(--color-text)',
+        'text-muted':   'var(--color-text-muted)',
+      },
+      fontFamily: {
+        sans:    ['var(--font-inter)', 'Inter', 'system-ui', 'sans-serif'],
+        display: ['var(--font-playfair)', 'Playfair Display', 'Georgia', 'serif'],
+        body:    ['var(--font-inter)', 'Inter', 'system-ui', 'sans-serif'],
       },
     },
   },
