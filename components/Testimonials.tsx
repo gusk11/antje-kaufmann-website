@@ -9,7 +9,7 @@ const testimonials = [
     name: "Dr. Sandra Meier",
     role: "Professorin, LMU München",
     quote:
-      "Antje Kaufmanns Training hat meine wissenschaftliche Präsentation auf internationalem Parkett grundlegend verändert. Professionell, empathisch und überaus effektiv.",
+      "Antje Katy Kaufmanns Training hat meine wissenschaftliche Präsentation auf internationalem Parkett grundlegend verändert. Professionell, empathisch und überaus effektiv.",
     initials: "SM",
   },
   {
@@ -37,14 +37,14 @@ export default function Testimonials() {
   const t = testimonials[current];
 
   return (
-    <section id="referenzen" className="py-24">
+    <section id="referenzen" className="py-12">
       <div className="max-w-4xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-center mb-14"
+          className="text-center mb-8"
         >
           <span className="inline-block px-4 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
             Stimmen meiner Kunden

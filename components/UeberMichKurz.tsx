@@ -5,14 +5,14 @@ import Image from "next/image";
 import { Award, Globe, GraduationCap } from "lucide-react";
 
 const badges = [
-  { icon: <Globe size={18} />, label: "Zertifizierte Englischtrainerin" },
-  { icon: <Award size={18} />, label: "ICF-zertifizierter Business Coach" },
+  { icon: <Globe size={18} />, label: "Erfahrene Englischtrainerin" },
+  { icon: <Award size={18} />, label: "Zertifikat Systemdesign für Konfliktmanagement" },
   { icon: <GraduationCap size={18} />, label: "15+ Jahre Erfahrung" },
 ];
 
 export default function UeberMichKurz() {
   return (
-    <section id="ueber-mich" className="py-24 bg-[var(--color-background-dark)]/30">
+    <section id="ueber-mich" className="py-12 bg-[var(--color-background-dark)]/30">
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-14 items-center">
           {/* Portrait */}
@@ -28,7 +28,7 @@ export default function UeberMichKurz() {
               <div className="w-full h-full rounded-full overflow-hidden border-4 border-[var(--color-background)] shadow-xl">
                 <Image
                   src="/images/portrait-3.png"
-                  alt="Antje Kaufmann – Porträt"
+                  alt="Antje Katy Kaufmann – Porträt"
                   width={320}
                   height={320}
                   className="object-cover w-full h-full"
@@ -49,16 +49,16 @@ export default function UeberMichKurz() {
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-text-main mb-5">
               Hallo, ich bin{" "}
-              <span className="text-primary">Antje Kaufmann</span>
+              <span className="text-primary">Antje Katy Kaufmann</span>
             </h2>
             <p className="text-text-muted leading-relaxed mb-4">
-              Als Trainerin und Coach begleite ich Menschen dabei, ihre
-              Kommunikation im Business-Kontext auf ein neues Level zu heben –
-              authentisch, klar und wirkungsvoll.
+              Als Trainerin begleite ich Sie dabei, ihre Kommunikation im
+              Business-Kontext auf ein neues Level zu heben – authentisch,
+              klar und wirkungsvoll.
             </p>
             <p className="text-text-muted leading-relaxed mb-8">
-              Meine Arbeit verbindet tiefes Sprachwissen mit praktischer
-              Coaching-Kompetenz. Ich arbeite mit Unternehmen, Hochschulen und
+              Meine Arbeit verbindet Sprachwissen mit praktischer
+              Beratungskompetenz. Ich arbeite mit Unternehmen, Hochschulen und
               Einzelpersonen, die ihren internationalen Auftritt stärken wollen.
             </p>
 

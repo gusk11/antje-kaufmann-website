@@ -11,13 +11,13 @@ const cards = [
   },
   {
     icon: <Users size={28} className="text-primary" />,
-    title: "Englisch für Hochschulen",
-    text: "Gezielte Sprachförderung für Studierende und wissenschaftliches Personal: akademisches Schreiben, Konferenzsprache und fachspezifische Kommunikation auf internationalem Niveau.",
+    title: "Präsentieren & wissenschaftliches Schreiben",
+    text: "Gezielte Förderung akademischer Schlüsselkompetenzen für Studierende, Doktoranden und PostDocs. Im Mittelpunkt stehen Präsentationstechniken, wissenschaftliches Schreiben und professionelle Fachkommunikation. Englisch als Arbeits- und Wissenschaftssprache für internationale Kontexte.",
   },
   {
     icon: <Briefcase size={28} className="text-primary" />,
-    title: "Business Coaching",
-    text: "Individuelles Coaching für Führungskräfte und Fachexperten. Ich unterstütze Sie beim Aufbau von Kommunikationsstärke, Auftritt und persönlicher Wirkung im beruflichen Kontext.",
+    title: "Konfliktmanagement",
+    text: "Individuelle Begleitung für Führungskräfte und Fachexperten in anspruchsvollen beruflichen Situationen. Schwerpunkte: Kommunikations- und Führungskompetenz, persönliche Wirkung sowie professionelle Analyse von Konflikten – für nachhaltige Lösungsansätze.",
   },
 ];
 
@@ -35,14 +35,14 @@ const card = {
 
 export default function Angebote() {
   return (
-    <section id="angebote" className="py-24">
+    <section id="angebote" className="py-12">
       <div className="max-w-6xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-center mb-14"
+          className="text-center mb-8"
         >
           <span className="inline-block px-4 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
             Was ich anbiete

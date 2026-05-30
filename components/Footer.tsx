@@ -21,12 +21,12 @@ export default function Footer() {
           <div className="flex items-center gap-2">
             <Image
               src="/images/logo.png"
-              alt="Antje Kaufmann Logo"
+              alt="Antje Katy Kaufmann Logo"
               width={36}
               height={36}
               className="w-9 h-9 object-contain"
             />
-            <span className="font-semibold text-text-main">Antje Kaufmann</span>
+            <span className="font-semibold text-text-main">Antje Katy Kaufmann</span>
           </div>
 
           {/* Links */}
@@ -59,7 +59,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 pt-6 border-t border-[var(--color-background-dark)] text-center text-xs text-text-muted">
-          © {new Date().getFullYear()} Antje Kaufmann · Alle Rechte vorbehalten
+          © {new Date().getFullYear()} Antje Katy Kaufmann · Alle Rechte vorbehalten
         </div>
       </div>
     </footer>

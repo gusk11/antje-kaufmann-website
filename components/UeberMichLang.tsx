@@ -3,22 +3,23 @@
 import { motion } from "framer-motion";
 
 const timeline = [
-  { year: "2008", label: "Erstes eigenes Trainingsformat für Business English entwickelt" },
-  { year: "2013", label: "ICF-Zertifizierung als Business Coach abgeschlossen" },
-  { year: "2017", label: "Kooperation mit führenden deutschen Hochschulen gestartet" },
-  { year: "2020", label: "Digitales Coaching-Programm für internationale Teams aufgebaut" },
+  { year: "2010", label: "Erstes eigenes Trainingsformat für Business English entwickelt" },
+  { year: "Seit 2010", label: "Zusammenarbeit mit global agierenden Unternehmen im Bereich Business English" },
+  { year: "Seit 2015", label: "Kooperation mit führenden sächsischen und anderen deutschen Hochschulen" },
+  { year: "2017", label: "Zertifizierung Systemdesign für Konfliktmanagement" },
+  { year: "Seit 2018", label: "Zusammenarbeit mit global agierenden Unternehmen im Bereich Konfliktmanagement und Persönlichkeitsentwicklung" },
 ];
 
 export default function UeberMichLang() {
   return (
-    <section className="py-24 bg-[var(--color-background-dark)]/20">
+    <section className="py-12 bg-[var(--color-background-dark)]/20">
       <div className="max-w-6xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-center mb-14"
+          className="text-center mb-8"
         >
           <span className="inline-block px-4 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
             Mein Weg
@@ -39,21 +40,21 @@ export default function UeberMichLang() {
           >
             <p>
               Meine Leidenschaft für Sprache und Kommunikation begleitet mich
-              seit meinem Studium der Anglistik und Betriebswirtschaft. Nach
-              ersten Jahren in internationalen Konzernen erkannte ich, wie
-              entscheidend präzise und authentische Kommunikation für den
+              seit meinem Studium der Amerikanistik und Psychologie. Bei meiner
+              Zusammenarbeit mit international agierenden Konzernen erkannte ich,
+              wie entscheidend präzise und authentische Kommunikation für den
               beruflichen Erfolg ist.
             </p>
             <p>
-              2008 gründete ich mein eigenes Trainings- und Coaching-Unternehmen.
+              2010 gründete ich mein eigenes Trainingsunternehmen 2re-act.
               Seitdem habe ich mehrere Hundert Fach- und Führungskräfte begleitet
               – in Konzernen, Mittelstandsunternehmen und an Universitäten quer
               durch den deutschsprachigen Raum.
             </p>
             <p>
-              Als ICF-zertifizierter Business Coach verbinde ich Sprachkompetenz
-              mit einem systemischen Blick auf Persönlichkeit und Wirkung. Mein
-              Ansatz: praxisnah, individuell abgestimmt, nachhaltig wirksam.
+              Als Beraterin verbinde ich Sprachkompetenz mit einem systemischen
+              Blick auf Persönlichkeit und Wirkung. Mein Ansatz: praxisnah,
+              individuell abgestimmt, nachhaltig wirksam.
             </p>
             <p>
               Ich glaube daran, dass jeder Mensch in der Lage ist, seine

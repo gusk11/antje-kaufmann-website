@@ -39,13 +39,13 @@ export default function Navbar() {
           <a href="#" className="flex items-center gap-2 group">
             <Image
               src="/images/logo.png"
-              alt="Antje Kaufmann Logo"
+              alt="Antje Katy Kaufmann Logo"
               width={64}
               height={64}
               className="w-16 h-16 object-contain"
             />
             <span className="font-display font-semibold text-xl tracking-tight text-text-main">
-              Antje Kaufmann
+              Antje Katy Kaufmann
             </span>
           </a>
 
