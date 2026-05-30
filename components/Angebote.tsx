@@ -7,17 +7,17 @@ const cards = [
   {
     icon: <BookOpen size={28} className="text-primary" />,
     title: "Business English Training",
-    text: "Maßgeschneidertes Englischtraining für Unternehmen – von Präsentations- und Verhandlungssprache bis hin zu E-Mail-Kommunikation. Einzel- und Gruppenformate, online und vor Ort.",
+    text: "Maßgeschneidertes Englischtraining für Unternehmen – von Präsentations- und Verhandlungssprache bis hin zu technischem Englisch für verschiedene Branchen. Einzel- und Gruppenformate, online und vor Ort.",
   },
   {
     icon: <Users size={28} className="text-primary" />,
     title: "Präsentieren & wissenschaftliches Schreiben",
-    text: "Gezielte Förderung akademischer Schlüsselkompetenzen für Studierende, Doktoranden und PostDocs. Im Mittelpunkt stehen Präsentationstechniken, wissenschaftliches Schreiben und professionelle Fachkommunikation. Englisch als Arbeits- und Wissenschaftssprache für internationale Kontexte.",
+    text: "Gezielte Förderung akademischer Schlüsselkompetenzen für Studierende, Doktoranden und PostDocs. Im Mittelpunkt stehen Präsentationstechniken, wissenschaftliches Schreiben und professionelle Fachkommunikation.",
   },
   {
     icon: <Briefcase size={28} className="text-primary" />,
     title: "Konfliktmanagement",
-    text: "Individuelle Begleitung für Führungskräfte und Fachexperten in anspruchsvollen beruflichen Situationen. Schwerpunkte: Kommunikations- und Führungskompetenz, persönliche Wirkung sowie professionelle Analyse von Konflikten – für nachhaltige Lösungsansätze.",
+    text: "Individuelle Begleitung für Führungskräfte und Fachexperten in anspruchsvollen beruflichen Situationen. Schwerpunkte: Kommunikations- und Führungskompetenz, persönliche Wirkung sowie professionelle Analyse von Konflikten – für nachhaltige Lösungsansätze. In deutscher und englischer Sprache.",
   },
 ];
 

@@ -34,7 +34,7 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="inline-block mb-4 px-4 py-1.5 rounded-full text-sm font-medium border border-primary/30 text-primary bg-primary/10"
             >
-              Englischtraining · Business Coaching
+              Englischtraining · Kompetenzentwicklung
             </motion.div>
 
             <motion.h1

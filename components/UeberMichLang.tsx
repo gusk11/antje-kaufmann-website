@@ -40,8 +40,8 @@ export default function UeberMichLang() {
           >
             <p>
               Meine Leidenschaft für Sprache und Kommunikation begleitet mich
-              seit meinem Studium der Amerikanistik und Psychologie. Bei meiner
-              Zusammenarbeit mit international agierenden Konzernen erkannte ich,
+              seit meinem Studium der Amerikanistik und Psychologie. Meine
+              Zusammenarbeit mit international agierenden Konzernen zeigte,
               wie entscheidend präzise und authentische Kommunikation für den
               beruflichen Erfolg ist.
             </p>
